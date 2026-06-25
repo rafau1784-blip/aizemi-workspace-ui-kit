@@ -1,7 +1,7 @@
 # workspace-ui-kit
 
 採用管理ドメインの **4ペイン Next.js 16 × shadcn/ui ワークスペース雛形**。
-受講生向けの動かし方・業種変更手順は README を参照。
+AI-ZEMI 生徒向けの動かし方・業種変更手順は README を参照。
 
 ## 視覚 SSoT
 
@@ -62,11 +62,10 @@ npm run format       # Prettier
 npm run check:radius # 角丸ドリフト検出
 ```
 
-## 配布制約
+## 配布について
 
-- `.distignore` で `openspec/` `AGENTS.md` は配布対象外（受講生の Gitea リポジトリに含まれない）
-- `CLAUDE.md` と `.claude/skills/*` は配布される（受講生環境の AI が読む）
-- 配布手順は親リポジトリの `managing-ads-gitea` スキルに従う
+- 生徒配布版は `github.com/rafau1784-blip/aizemi-workspace-ui-kit`（Private）
+- `CLAUDE.md` と `.claude/skills/*` は生徒環境の AI が読む
 
 ## やらないこと
 
