@@ -64,7 +64,7 @@ npm run check:radius # 角丸ドリフト検出
 
 ## 配布について
 
-- 生徒配布版は `github.com/rafau1784-blip/aizemi-workspace-ui-kit`（Private）
+- 生徒配布版は `github.com/rafau1784-blip/aizemi-workspace-ui-kit`（Public — ログインなしでクローン可）
 - `CLAUDE.md` と `.claude/skills/*` は生徒環境の AI が読む
 
 ## やらないこと
